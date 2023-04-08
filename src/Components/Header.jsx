@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-gray-100 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="bg-gray-100 px-4 py-5 mx-auto container md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
         <div className="inline-flex items-center gap-2">
