@@ -40,7 +40,7 @@ const Header = () => {
               to="/cart"
               className={({ isActive }) => (isActive ? "text-blue-700" : "")}
             >
-              <TiShoppingCart className="text-3xl text-black" />
+              <TiShoppingCart className="text-3xl text-amber-400" />
             </NavLink>
           </li>
           <li>
@@ -109,7 +109,7 @@ const Header = () => {
                 </div>
                 {/* Mobile Nav Items Section */}
                 <nav>
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 font-semibold">
                     <li>
                       <NavLink
                         to="/"
@@ -137,7 +137,7 @@ const Header = () => {
                           isActive ? "text-blue-700" : ""
                         }
                       >
-                        <TiShoppingCart className="text-3xl text-black" />
+                        <TiShoppingCart className="text-3xl text-amber-400" />
                       </NavLink>
                     </li>
                     <li>

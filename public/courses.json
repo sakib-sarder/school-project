@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "course_title": "Introduction to Python",
+    "course_price": 49.99,
+    "author": "John Smith",
+    "slogan": "Learn Python programming from scratch",
+    "description": "This course is designed for beginners who have no prior programming experience. It covers the basics of Python programming, including data types, control structures, functions, and modules.",
+    "img":"https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010142.jpg?size=626&ext=jpg&uid=R89352786&ga=GA1.1.197037550.1674548191&semt=sph", 
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "course_title": "Web Development with HTML and CSS",
+    "course_price": 59.99,
+    "author": "Jane Doe",
+    "slogan": "Build responsive and beautiful websites",
+    "description": "This course teaches the basics of web development using HTML and CSS. You will learn how to create static web pages, style them using CSS, and make them responsive using media queries.",
+    "img": "https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg&uid=R89352786&ga=GA1.1.197037550.1674548191&semt=ais",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "course_title": "JavaScript Fundamentals",
+    "course_price": 69.99,
+    "author": "Bob Johnson",
+    "slogan": "Master the basics of JavaScript",
+    "description": "This course covers the fundamentals of JavaScript, including data types, control structures, functions, and objects. You will also learn how to work with the Document Object Model (DOM) and manipulate web page elements using JavaScript.",
+    "img": "https://img.freepik.com/free-photo/sofware-developer-thinking-while-touching-beard-while-typing-laptop-sitting-desk-with-multiple-screens-parsing-code-focused-database-admin-working-with-team-coding-background_482257-33556.jpg?size=626&ext=jpg&uid=R89352786&ga=GA1.1.197037550.1674548191&semt=sph",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "course_title": "Data Science with Python",
+    "course_price": 89.99,
+    "author": "Alice Brown",
+    "slogan": "Explore the world of data science",
+    "description": "In this course, you will learn how to use Python for data science. You will learn how to work with data structures like NumPy arrays and Pandas dataframes, and how to visualize data using libraries like Matplotlib and Seaborn.",
+    "img": "https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18140.jpg?size=626&ext=jpg&uid=R89352786&ga=GA1.1.197037550.1674548191&semt=ais",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "course_title": "React Native Development",
+    "course_price": 79.99,
+    "author": "Samuel Lee",
+    "slogan": "Build mobile apps using React Native",
+    "description": "This course teaches you how to build mobile apps for iOS and Android using React Native. You will learn how to use components, navigate between screens, and work with APIs to build fully functional mobile apps.",
+    "img": "https://img.freepik.com/free-vector/hand-drawn-flat-design-npl-illustration_23-2149262969.jpg?size=626&ext=jpg&uid=R89352786&ga=GA1.1.197037550.1674548191&semt=ais",
+    "rating": 4.2
+  },
+  {
+    "id": 6,
+    "course_title": "Artificial Intelligence with Python",
+    "course_price": 99.99,
+    "author": "David Kim",
+    "slogan": "Explore the fascinating world of AI",
+    "description": "In this course, you will learn how to use Python for artificial intelligence. You will learn how to implement machine learning algorithms, train neural networks, and use libraries like TensorFlow and Keras to build intelligent applications.",
+    "img": "https://img.freepik.com/free-vector/abstract-wireframe-digital-human-female-face-streaming-matrix-digital-binary-code-background-ai-artificial-intelligence-concept_127544-849.jpg?size=626&ext=jpg&uid=R89352786&ga=GA1.1.197037550.1674548191&semt=ais",
+    "rating": 4.9
+  }
+]

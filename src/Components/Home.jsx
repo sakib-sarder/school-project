@@ -7,9 +7,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <div className='h-[calc(100vh-144px)]'>
             <Outlet />
-            </div>
             <Footer />
         </div>
     );
