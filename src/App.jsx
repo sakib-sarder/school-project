@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css'
 import ErrorPage from './Components/ErrorPage'
+import Header from './Components/Header'
+
 
 function App() {
 
   return (
     <div>
-      <ErrorPage/>
+      <Header/>
     </div>
   )
 }
