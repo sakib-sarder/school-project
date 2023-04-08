@@ -7,6 +7,10 @@ import HomeContent from "./Components/HomeContent";
 import ErrorPage from "./Components/ErrorPage";
 import About from "./Components/About";
 import Courses from "./Components/Courses";
+import Instructors from "./Components/Instructors";
+import Blog from "./Components/Blog";
+import Contacts from "./Components/Contacts";
+import Cart from "./Components/Cart";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +29,22 @@ const router = createBrowserRouter([
       {
         path: "courses",
         element: <Courses />
+      },
+      {
+        path: "instructors",
+        element: <Instructors />
+      },
+      {
+        path: "blog",
+        element: <Blog />
+      },
+      {
+        path: "contacts",
+        element: <Contacts />
+      },
+      {
+        path: "cart",
+        element: <Cart />
       }
     ],
   },

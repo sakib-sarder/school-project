@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { HiAcademicCap } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
+import { TiShoppingCart } from "react-icons/ti";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,31 +11,69 @@ const Header = () => {
     <div className="bg-gray-100 px-4 py-5 mx-auto container md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
-        <div className="inline-flex items-center gap-2">
+        <NavLink to="/" className="inline-flex items-center gap-2">
           <HiAcademicCap className="text-4xl text-[#5F54FD]" />
           <span className="text-2xl font-bold animate-text bg-gradient-to-r from-[#D040F5] to-[#5F54FD] bg-clip-text text-transparent">
             P-Hero
           </span>
-        </div>
+        </NavLink>
         {/* Nav Items */}
-        <ul className="lg:inline-flex gap-3 hidden">
+        <ul className="lg:inline-flex gap-3 hidden font-semibold">
           <li>
-            <a href="#">Home</a>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="#">Courses</a>
+            <NavLink
+              to="/courses"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              Courses
+            </NavLink>
           </li>
           <li>
-            <a href="#">Instructors</a>
+            <NavLink
+              to="/cart"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              <TiShoppingCart className="text-3xl text-black" />
+            </NavLink>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <NavLink
+              to="/instructors"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              Instructors
+            </NavLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <NavLink
+              to="/blog"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              Blog
+            </NavLink>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contacts"
+              className={({ isActive }) => (isActive ? "text-blue-700" : "")}
+            >
+              Contacts
+            </NavLink>
           </li>
         </ul>
         {/* Mobile Navbar Section  */}
@@ -51,12 +91,12 @@ const Header = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 {/* Logo & Button section */}
                 <div className="flex items-center justify-between mb-4">
-                  <div className="inline-flex items-center gap-2">
+                  <NavLink to="/" className="inline-flex items-center gap-2">
                     <HiAcademicCap className="text-4xl text-[#5F54FD]" />
                     <span className="text-2xl font-bold animate-text bg-gradient-to-r from-[#D040F5] to-[#5F54FD] bg-clip-text text-transparent">
                       P-Hero
                     </span>
-                  </div>
+                  </NavLink>
                   <div>
                     <button
                       aria-label="Close Menu"
@@ -71,22 +111,74 @@ const Header = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a href="#">Home</a>
+                      <NavLink
+                        to="/"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        Home
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="#">Courses</a>
+                      <NavLink
+                        to="/courses"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        Courses
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="#">Instructors</a>
+                      <NavLink
+                        to="/cart"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        <TiShoppingCart className="text-3xl text-black" />
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <NavLink
+                        to="/instructors"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        Instructors
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <NavLink
+                        to="/blog"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        Blog
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="#">Contacts</a>
+                      <NavLink
+                        to="/about"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        About
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/contacts"
+                        className={({ isActive }) =>
+                          isActive ? "text-blue-700" : ""
+                        }
+                      >
+                        Contacts
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>
