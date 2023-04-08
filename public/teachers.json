@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "phone": "555-555-1212",
+    "skills": ["Java", "Python", "C++"],
+    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Sarah Lee",
+    "email": "sarah.lee@example.com",
+    "phone": "555-555-2323",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "David Johnson",
+    "email": "david.johnson@example.com",
+    "phone": "555-555-3434",
+    "skills": ["Ruby", "Perl", "PHP"],
+    "image": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Karen Brown",
+    "email": "karen.brown@example.com",
+    "phone": "555-555-4545",
+    "skills": ["Swift", "Objective-C", "Java"],
+    "image": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Michael Davis",
+    "email": "michael.davis@example.com",
+    "phone": "555-555-5656",
+    "skills": ["Python", "JavaScript", "C#"],
+    "image": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Jennifer Kim",
+    "email": "jennifer.kim@example.com",
+    "phone": "555-555-6767",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "image": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Robert Garcia",
+    "email": "robert.garcia@example.com",
+    "phone": "555-555-7878",
+    "skills": ["Java", "C++", "Python"],
+    "image": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Samantha Lee",
+    "email": "samantha.lee@example.com",
+    "phone": "555-555-8989",
+    "skills": ["PHP", "JavaScript", "HTML"],
+    "image": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Andrew Johnson",
+    "email": "andrew.johnson@example.com",
+    "phone": "555-555-9090",
+    "skills": ["Python", "Java", "C#"],
+    "image": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Emily Kim",
+    "email": "emily.kim@example.com",
+    "phone": "555-555-1010",
+    "skills": ["HTML", "C#", "Perl"],
+    "image": "https://randomuser.me/api/portraits/men/9.jpg"
+  }
+]
